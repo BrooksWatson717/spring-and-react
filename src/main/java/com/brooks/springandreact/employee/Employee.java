@@ -13,7 +13,6 @@ public class Employee {
     private String lastName;
     private String description;
 
-
     public Employee() {
     }
 
@@ -56,7 +55,7 @@ public class Employee {
     public void setDescription(String description) {
         this.description = description;
     }
-    
+
     @Override
     public boolean equals(Object o) {
         if (o == this)
